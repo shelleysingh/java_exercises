@@ -45,7 +45,7 @@ public class StringUtil {
 		}
 	}
 
-	// METHOD to PRINT list of valid emails
+	// METHOD to PRINT list of invalid emails
 	static void invalidEmailsConsole(String[] emails) {
 		String regex = "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$";
 
