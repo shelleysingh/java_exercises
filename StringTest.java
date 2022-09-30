@@ -65,7 +65,7 @@ public class StringTest {
 
 		// Call method from StringUtil - CONSOLE number of valid emails
 		int validEmails = StringUtil.validEmails(emails);
-		System.out.println("Number of invalid emails are: " + validEmails);
+		System.out.println("Number of valid emails are: " + validEmails);
 
 		// Call method from StringUtil - CONSOLE list valid emails
 		StringUtil.validEmailsConsole(emails);
